@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My JavaScript Practice</title>
+</head>
+<body>
+    <h1>My First Scrypt</h1>
+
+
+    <script>
+        // the variable is bellow
+        
+        /*var happy = true;
+        var sad = false;
+        var green;
+        var myNum = 3;
+        var OtherNum = 8;
+
+
+         if(OtherNum / myNum == 4){
+            console.log("The statement is true");
+        }
+        else {
+           console.log("The statement is false");
+        } */
+
+        /* var students = ["Mike", "Thomas", "Kevin", "Claude"];
+        var SelectedStudent = students[2];
+
+        if(SelectedStudent == "Mike"){
+            console.log("The student is Mike");
+        }
+        else if(SelectedStudent == "Thomas"){
+            console.log("The student is Thomas");
+        }
+        else if(SelectedStudent == "Kevin"){
+            console.log("The student is Kevin");
+        }
+        else{
+            console.log("The student is Claude");
+        } */
+
+        /* var grades = [10, 10, 5, 15, 10]
+        var avg = (grades[0] + grades[1] + grades[2] + grades[3] + grades[4]) / grades.length;
+        if(avg > 10){
+            console.log("Very Good Job Class!");
+        }
+        else if(avg == 10){
+            console.log("Not Bad Class but you can do better")
+        }
+        else{
+            console.log("Class, you have to improve")
+        } */
+
+        /* var NumbersList = [0, 1, 2, 36, 4];
+        var SelectedNumber = NumbersList[3];
+        switch(SelectedNumber){
+        case 0: console.log("The number is 0"); break;
+        case 1: console.log("The number is 1"); break;
+        case 2: console.log("The number is 2"); break;
+        case 36: console.log("The number is 36"); break;
+        case 4: console.log("The number is 4"); break;
+        default: console.log("ERROR!");
+        } */
+
+        /* var FamilyNames = ["Takam", "Simo", "Siakam", "Ndopea"];
+        var SelectedName = FamilyNames[5];
+        switch(SelectedName){
+        case "Takam": console.log("The name is Takam!"); break;
+        case "Simo": console.log("The name is Simo!"); break;
+        case "Siakam": console.log("The name is Siakam!"); break;
+        case "Ndopea": console.log("The name is Ndopea!"); break;
+        default: console.log("ERROR!")
+        } */
+
+        /* var WeekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+        var DayHour = ["9am", "10am", "11am", "12am"];
+        var IntroDay = WeekDays[1];
+        var IntroTime = DayHour[0];
+        var IntroSession = IntroDay == "Tuesday" && IntroTime == "9am"
+        if(IntroSession){
+            console.log("It's time for the intro-session");
+        }
+        else{
+            console.log("It's not time for the intro-session");
+        } */
+
+       /*  var HomeWork = false;
+        var Exams = false;
+        var Summatives = false;
+        if(HomeWork || Exams || Summatives){
+            console.log("Good job");
+        }
+        else{
+            console.log("You haven't done any work");
+        } */
+
+
+        //We are starting loops now
+
+       /*  for(var i = 0; i < 10; i++){
+            console.log(i);
+        } */
+
+        /* var animals = ["dog", "cat", "hen"]
+        for (var i = 0; i < animals.length; i++){
+            console.log(animals[i]);
+        } */
+
+        /* var animals = ["dog", "cat", "hen"]
+        for (var EachAnimal of animals){
+            console.log(EachAnimal);
+        } */
+
+       /*  var incrementor = 0;
+        var text = "";
+        while(incrementor < 10){
+            text += "The incrementor has gone up to " + incrementor + "\n";incrementor++
+            
+        }
+        console.log(text); */
+
+       /*  var countdown = 10;
+        var text = "";
+        while (countdown > 0) {
+            text += `The countdown is ${countdown} \n`;
+            countdown = countdown - 1;
+        }
+        console.log(text);
+        console.log("GO!!!") */
+ 
+        /*var myString = "I am really hungry for some";
+        console.log(myString);
+        var myUpperString = myString.toUpperCase();
+        console.log(myUpperString);
+        var reallylocation = myString.search('really');
+        var specialWord = myString.substr(reallylocation, 6);
+        specialWord = specialWord.toUpperCase();
+        var newString = myString.replace('really', specialWord);
+        console.log(newString) */
+
+       /*  var foods = ["Bread", "Cake", "Chips", "Chiken"]
+        for( var food of foods){
+            if(food.length % 2 == 0){
+                console.log(`${myString} ${food.toUpperCase()}`);
+            }
+            else {console.log(`${myString} ${food}`);
+            }
+        }  */
+        
+
+
+        /* var foods = ["Bread", "Cake", "Chips", "Chicken"];
+        var i = 0;
+        while (i < foods.length) {
+        console.log(`${myString} ${foods[i]}`);
+        i++;
+} */
+ 
+     /*    var Uinput = prompt("Please enter a color");
+        var Pcolors = ["yellow", "red", "blue"];
+        var Scolors = ["orange", "purple", "green"];
+        if(Pcolors.includes(Uinput)){
+            console.log("It is a primary color");
+        }
+        else if(Scolors.includes(Uinput)){
+            console.log("It is a secondary color");
+        }
+        else {
+            console.log("It is neither a primary nor secondary color");
+        } */
+
+        function dostuff() {
+            var myString = "Here is a string of text";
+            var myUpperString = myString.toUpperCase();
+            console.log(myString);
+            console.log(myUpperString);
+        }
+
+        dostuff();
+    /* function Obj10(){ 
+         var inputNum = prompt("Please input a whole number");
+         
+         if(inputNum < 10) {
+            console.log("You entered a number smaller than 10")
+            for(var count = 0; count < 10; count++ )  
+            console.log(`${count} \n`)
+         }
+         else if(inputNum => 10) {
+            console.log("You entered a big number")
+         }
+         else {
+            console.log("There is an error")
+         }
+    } 
+        
+         Obj10();*/
+        
+        
+        /* function upperMessage (message) {
+            var upper = message.toUpperCase();
+            console.log(upper);
+        }
+        upperMessage("Here is an important message !");
+        
+        function additions (num1, num2){
+            var sum = num1 + num2;
+            console.log(sum);
+        }
+        additions(20, 30);
+         */
+        /* function sentence (word1, word2, word3){
+            var sentence = word1 + " " + word2 + " " + word3;
+            console.log(sentence)
+        }
+        sentence("I", "am", "King")
+
+        function returnSum(num1, num2){
+            var sum = num1 + num2;
+            return sum;
+        }
+        console.log( returnSum(5, 3));
+ */
+    /*var foods = ["cheese", "chiken", "grapes", "ham"];
+
+     function randomInt(min, max){
+       /*  var numOfValues = max - min +1;
+        var randomNum = Math.random();
+        var randomVal = randomNum * numOfValues;
+        var roundedRandomVal = Math.floor(randomVal);
+        var finalNum = min + roundedRandomVal
+        return Math.floor((max - min + 1) * Math.random())+ min;
+     }
+     console.log (foods[randomInt(0, 3)])*/
+ 
+    /* var Yname = prompt("Please enter your name");
+    function hello(name){
+        if (name == null || name == ""){
+            console.log("You didn't enter your name");
+        }
+        else {
+            console.log(`Hello ${name} and welcome!`);
+        }
+    }
+
+    hello(Yname); */
+
+     var Yname = prompt("Please enter your name");
+     var food = ["bread", "fish", "eggs", "cake"];
+    function hello(name){
+        var greeting;
+        if (name == null || name == ""){
+            greeting = "You didn't enter your name";
+        }
+        else {
+            greeting = `Hello ${name} and welcome!`;
+        }
+        return greeting;
+    }
+
+    function randomInt(min, max){
+        return Math.floor((max - min + 1) * Math.random())+ min;
+     }
+    
+    function hospitality(name, gift){
+        console.log(hello(name));
+        var randomGift = gift[ randomInt(0, gift.length-1)];
+        console.log(`Would you like some ${randomGift} ?`);
+           
+    }
+    hospitality(Yname, food);
+    </script>
+</body>
+</html>
